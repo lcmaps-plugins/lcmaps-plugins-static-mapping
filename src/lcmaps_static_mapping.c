@@ -68,7 +68,7 @@ int getGroupInfo(uid_t uid) {
       return LCMAPS_MOD_FAIL;
     }
     if (getgrouplist(pw->pw_name, pw->pw_gid, groups, &ng) < 0) {
-      lcmaps_log(0, "%s: Unable to lookup groups for user %s.\n", pw->pw_name);
+      lcmaps_log(0, "%s: Unable to lookup groups for user %s.\n", logstr, pw->pw_name);
       free(groups);
       return LCMAPS_MOD_FAIL;
     }
