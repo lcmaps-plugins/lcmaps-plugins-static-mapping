@@ -1,7 +1,7 @@
 
 # lcmaps-plugins-static-mapping
 
-![][https://api.travis-ci.org/lcmaps-plugins/lcmaps-plugins-static-mapping.svg?branch=master]
+![](https://api.travis-ci.org/lcmaps-plugins/lcmaps-plugins-static-mapping.svg?branch=master)
 
 This LCMAPS plugin does a mapping solely based on the contents of a mapfile.
 The contents of the mapfile, assumed to be /etc/grid-security/glexec-mapfile.
