@@ -6,5 +6,5 @@ sudo: false
 before_install:
   - curl http://t2.unl.edu/store/sources/lcmaps-interface-prefix.tar.gz | tar zxv
 
-scripts: ./bootstrap && ./configure --with-lcmaps-prefix=lcmaps-interface/usr/ && make && make install
+script: ./bootstrap && ./configure --with-lcmaps-prefix=lcmaps-interface/usr/ && make && make install
 
